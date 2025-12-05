@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ders Programı</title>
+    <style>
+        /* Sayfa genel görünümü */
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(37, 37, 37); /* koyu arka plan */
+            margin: 40px;
+            color: white; /* tüm yazılar beyaz */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: white; /* başlıklar beyaz */
+        }
+
+        /* Tablo biçimi */
+        table {
+            width: 100%;
+            border-collapse: separate; /* yuvarlatılmış köşeler için separate */
+            border-spacing: 0;
+            background-color: rgb(37, 37, 37); /* tablo arka planı koyu */
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* hafif gölge */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            color: white; /* tablo yazıları beyaz */
+        }
+
+        th {
+            background-color: #87609e;
+        }
+
+        td {
+            background-color: rgb(50,50,50); /* hücre arka planı biraz daha açık koyu */
+            border-bottom: 1px solid #666;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        tr:hover td {
+            background-color: rgba(135, 96, 158, 0.3); /* hover efekti */
+            transform: scale(1.02);
+        }
+
+        /* Liste biçimi */
+        ul {
+            margin-top: 30px;
+            color: white; /* liste yazıları beyaz */
+            list-style-type: square;
+        }
+
+        /* Mobil uyumluluk */
+        @media (max-width: 768px) {
+            table, th, td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>2025 - 2026 1. Dönem Ders Programı</h1>
+
+    <table>
+        <tr>
+            <th>♡</th>
+            <th>Pazartesi</th>
+            <th>Salı</th>
+            <th>Çarşamba</th>
+            <th>Perşembe</th>
+            <th>Cuma</th>
+        </tr>
+        <tr>
+            <td>08:40 - 09:25</td>
+            <td>Yönetim Bilişim Sistemleri</td>
+            <td>Matematik</td>
+            <td></td>
+            <td>Algoritma ve Programlamaya Giriş</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>09:35 - 10:20</td>
+            <td>Yönetim Bilişim Sistemleri</td>
+            <td>Matematik</td>
+            <td></td>
+            <td>Algoritma ve Programlamaya Giriş</td>
+            <td>Kariyer Planlama</td>
+        </tr>
+        <tr>
+            <td>10:30 - 11:15</td>
+            <td>Yönetim Bilişim Sistemleri</td>
+            <td>Matematik</td>
+            <td></td>
+            <td>Algoritma ve Programlamaya Giriş</td>
+            <td>Ofis Yazılımları</td>
+        </tr>
+        <tr>
+            <td>11:25 - 12:10</td>
+            <td>Web Tasarımı</td>
+            <td></td>
+            <td></td>
+            <td>Algoritma ve Programlamaya Giriş</td>
+            <td>Ofis Yazılımları</td>
+        </tr>
+        <tr>
+            <td>12:20 - 13:05</td>
+            <td>Web Tasarımı</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ofis Yazılımları</td>
+        </tr>
+        <tr>
+            <td>13:15 - 14:00</td>
+            <td>Web Tasarımı</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>14:10 - 14:55</td>
+            <td></td>
+            <td></td>
+            <td>Temel Fotoğrafçılık</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>15:05 - 15:50</td>
+            <td></td>
+            <td></td>
+            <td>Temel Fotoğrafçılık</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:00 - 16:45</td>
+            <td></td>
+            <td></td>
+            <td>Temel Fotoğrafçılık</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>Dersler - Hocalar ^_^</h2>
+    <ul>
+        <li>Yönetim Bilişim Sistemleri – Öğr. Gör. Dr. Üzeyir Fidan</li>
+        <li>Web Tasarımı I – Öğr. Gör. Dr. Cemil Gündüz</li>
+        <li>Matematik I – Öğr. Gör. Dr. Üzeyir Fidan</li>
+        <li>Algoritma ve Programlamaya Giriş – Dr. Öğr. Üyesi Erdi Okan Yılmaz</li>
+        <li>Temel Fotoğrafçılık – Dr. Öğr. Üyesi Erdi Okan Yılmaz</li>
+        <li>Kariyer Planlama – Doç. Dr. Abdullah Yasin Gündüz</li>
+        <li>Ofis Yazılımları – Doç. Dr. Abdullah Yasin Gündüz</li>
+    </ul>
+</body>
+</html>
