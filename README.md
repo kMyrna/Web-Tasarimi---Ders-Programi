@@ -38,19 +38,3 @@ Temel Fotoğrafçılık – Dr. Öğr. Üyesi Erdi Okan Yılmaz
 Kariyer Planlama – Doç. Dr. Abdullah Yasin Gündüz
 
 Ofis Yazılımları – Doç. Dr. Abdullah Yasin Gündüz
-
-🎨 Arayüz ve Tasarım
-
-Koyu tema (dark mode)
-
-Hover efektli interaktif tablo
-
-Mobil uyumlu yapı
-
-Yuvarlatılmış köşeler ve modern gölgelendirme
-
-Bu proje, hem ders programını dijital ortamda düzenli şekilde sunmak hem de basit HTML/CSS ile örnek bir arayüz göstermek amacıyla hazırlanmıştır.
-
-💡 Kullanım
-
-index.html (veya yüklediğin dosya adı) dosyasını herhangi bir tarayıcıda açarak ders programını görüntüleyebilirsin.
